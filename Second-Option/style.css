@@ -1,0 +1,44 @@
+:root{
+    --headerclr:#222533;
+    --mainclr:#ffcb0f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow: hidden;
+
+}
+
+.header{
+    padding: 2rem 7%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--headerclr);
+}
+
+#logo{
+    color: var(--mainclr);
+    font-size: 30px;
+}
+.nav a{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.nav a:hover{
+    color: var(--mainclr);
+}

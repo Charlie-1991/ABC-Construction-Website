@@ -33,7 +33,7 @@ html{
     color: var(--mainclr);
     font-size: 30px;
 }
-.nav a{
+.na{
     color: white;
     font-size: 1.5rem;
     margin-left: 1rem;
@@ -41,4 +41,19 @@ html{
 
 .nav a:hover{
     color: var(--mainclr);
+}
+
+.icon-header div{
+    color: white;
+    margin-left: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-header div:hover{
+    color: var(--mainclr);
+}
+
+menu-bar{
+    display: none;
 }

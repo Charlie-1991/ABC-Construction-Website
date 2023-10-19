@@ -102,16 +102,75 @@ menu-bar{
     font-size: 50px;
     color: white;
     text-align: center;
+    line-height: 5rem;
+    text-transform: uppercase;
 }
 
 .inner-back-text h1 span{
     color: var(--mainclr);
+    text-transform: uppercase;
 }
 
 .inner-back-text p{
     color: white;
     font-size: 1.5rem;
+    margin-bottom: 25px;
 }
+
+.inner-back-btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.inner-back-btn a{
+    margin-right: 1rem;
+}
+
+.first-btn, .Second-btn{
+    padding: 1.5rem 4rem;
+    background: var(--mainclr);
+    border-radius: 15px;
+    color: var(--headerclr);
+    font-size: 1.5rem;
+}
+
+.first-btn, .Second-btn:hover{
+    background: var(--headerclr);
+    color: white;
+    letter-spacing: 3px;
+}
+
+.welcome{
+    padding: 3rem 7%;
+}
+
+.main-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}   
+
+.inner-welcome{
+    flex: 1 1 45rem;
+}
+
+.welcome-text h1{
+    font-size: 40px;
+    color: var(--mainclr);
+}
+
+.welcome-text p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+
+
+
 
 
 

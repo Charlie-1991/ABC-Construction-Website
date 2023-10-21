@@ -10,6 +10,7 @@
     text-transform: capitalize;
     box-sizing: border-box;
     transition: .2s;
+    font-family: 'Roboto', sans-serif;
 }
 html{
     font-size: 62.5%;
@@ -25,6 +26,7 @@ html{
     justify-content: space-between;
     align-items: center;
     background: var(--headerclr);
+    z-index: 10000;
 }
 #logo{
     color: var(--mainclr);
@@ -71,18 +73,20 @@ html{
     top: 110%;
 }
 .background-image{
-    background: url(images/background/image.png);
+    background: url('images/background image.png');
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 .inner-back-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .inner-back-text h1{
     font-size: 50px;
@@ -98,7 +102,8 @@ html{
 .inner-back-text p{
     color: white;
     font-size: 1.5rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    padding: 1rem;
 }
 .inner-back-btn{
     display: flex;
@@ -107,14 +112,14 @@ html{
 .inner-back-btn a{
     margin-right: 1rem;
 }
-.first-btn, .Second-btn{
+.first-btn, .second-btn{
     padding: 1.5rem 4rem;
     background: var(--mainclr);
     border-radius: 15px;
     color: var(--headerclr);
     font-size: 1.5rem;
 }
-.first-btn, .Second-btn:hover{
+.first-btn:hover, .second-btn:hover{
     background: var(--headerclr);
     color: white;
     letter-spacing: 3px;
@@ -156,7 +161,7 @@ html{
     width: 80%;
 }
 .chose-us{
-    padding: 3rem 7%;
+    padding: 5rem 7%;
     background-color: turquoise;
 }
 .chose-us h1{
@@ -173,6 +178,7 @@ html{
     font-size: 1.5rem;
     padding: 1rem 10rem;
     text-align: center;
+    margin-bottom: 25px;
 }
 .main-chose{
     display: flex;
@@ -180,6 +186,7 @@ html{
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    text-align: ;
 }
 .inner-chose{
     flex: 1 1 200px;

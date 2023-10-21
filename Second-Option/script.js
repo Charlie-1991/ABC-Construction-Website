@@ -3,8 +3,8 @@ let mynav = document.querySelector(".nav");
 let searchbar = document.querySelector("#search-bar");
 let search = document.querySelector(".search-form");
 
-manubar.onclick = () => {
-  menybar.classList.toggle("fa.times");
+menubar.onclick = () => {
+  menubar.classList.toggle("fa.times");
   mynav.classList.toggle("active");
 };
 

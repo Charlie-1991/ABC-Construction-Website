@@ -15,7 +15,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header{
     padding: 2rem 7%;
@@ -42,14 +42,14 @@ html{
 }
 .icon-header div{
     color: white;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     font-size: 2rem;
     cursor: pointer;
 }
 .icon-header div:hover{
     color: var(--mainclr);
 }
-.menu-bar{
+#menu-bar{
     display: none;
 }
 .nav.active{
@@ -68,12 +68,12 @@ html{
     border-radius: 10px;
     border: 1px solid var(--headerclr);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}  
+}
 .search-form.active{
     top: 110%;
 }
 .background-image{
-    background: url('images/background image.png');
+    background: url(images/backgroud\ image.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -133,13 +133,14 @@ html{
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-}   
+}
 .inner-welcome{
     flex: 1 1 45rem;
 }
 .welcome-text h1{
     font-size: 40px;
     color: var(--mainclr);
+
 }
 .welcome-text p{
     font-size: 1.5rem;
@@ -158,7 +159,7 @@ html{
     color: white;
 }
 .inner-welcome img{
-    width: 80%;
+width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
@@ -186,13 +187,13 @@ html{
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-    text-align: ;
+    text-align: center;
 }
 .inner-chose{
     flex: 1 1 200px;
 }
 .chose-icon{
-    width: 100;
+    width: 100px;
     height: 100px;
     text-align: center;
     line-height: 100px;
@@ -203,10 +204,11 @@ html{
 .chose-icon i{
     font-size: 40px;
     color: white;
+    transition: .5s;
 }
 .chose-icon i:hover{
-    color: var(--headerclr);
-    transform: translateY(-25px);
+color: var(--headerclr);
+transform: translateY(-25px);
 }
 .inner-chose h2{
     font-size: 2rem;
@@ -214,10 +216,10 @@ html{
 }
 .inner-chose p{
     font-size: 1.5rem;
-    padding: 1rem 0;
+    padding: 0 1rem;
 }
 .our-services{
-    padding: 3rem 7%;
+    padding: 5rem 7%;
 }
 .our-services h1{
     color: var(--headerclr);
@@ -228,7 +230,7 @@ html{
 .our-services h1 span{
     color: var(--mainclr);
 }
-.main-services{
+.main-service{
     margin-top: 15px;
     display: flex;
     justify-content: center;
@@ -236,29 +238,30 @@ html{
     flex-wrap: wrap;
     gap: 15px;
 }
-.inner-services{
+.inner-service{
     flex: 1 1 300px;
 }
-.inner-services h2{
+.inner-service h2{
     padding: 1rem 0;
     font-size: 2rem;
 }
-.inner-services p{
+.inner-service p{
     font-size: 1.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
-.inner-services a{
+.inner-service a{
     padding: 1.5rem 3rem;
     background: var(--mainclr);
     color: var(--headerclr);
     border-radius: 15px;
+
 }
-.inner-services a:hover{
+.inner-service a:hover{
     background: var(--headerclr);
     color: white;
 }
 .our-gallery{
-    padding: 4rem 7;
+    padding: 4rem 7%;
 }
 .our-gallery h1{
     color: var(--headerclr);
@@ -266,7 +269,7 @@ html{
     text-align: center;
     margin-bottom: 20px;
 }
-.our-gallery h1{
+.our-gallery h1 span{
     color: var(--mainclr);
 }
 .main-gallery{
@@ -276,17 +279,15 @@ html{
     flex-wrap: wrap;
     gap: 15px;
 }
-
 .inner-gallery{
     flex: 1 1 300px;
 }
-
-.our-gallery img{
+.inner-gallery img{
     width: 100%;
     height: 300px;
     transition: .5s;
 }
-.our-gallery img:hover{
+.inner-gallery img:hover{
     transform: translateY(-25px);
 }
 .customer-review{
@@ -346,17 +347,8 @@ html{
 
 
 
-
-
-
-
-
-
-
-
-
 @media (max-width:767px) {
-    .html{
+    html{
         font-size: 55%;
     }
     #menu-bar{
@@ -381,16 +373,18 @@ html{
         margin: 1rem;
         font-size: 14px;
     }
-
     .search-form{
-        width: 80%;
+        width: 90%;
     }
-
+    .inner-back-text{
+        width: 100% !important;
+    }
     .inner-welcome img{
         margin-top: 20px;
         text-align: center;
-}
-.chose-text{
-    padding: 1rem 2rem;
-}
+        }
+        .chose-text{
+            padding: 1rem 2rem;
+         
+        }
 }

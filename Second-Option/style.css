@@ -268,8 +268,16 @@ transform: translateY(-25px);
 .inner-service{
     flex: 1 1 300px;
 }
-.img-1{
-    width: 50%;
+.img-1 img{
+    width: 50%; 
+    height: 50%;
+}
+.img-2 img{
+    width: 50%; 
+    height: 50%;
+}
+.img-3 img{
+    width: 50%; 
     height: 50%;
 }
 

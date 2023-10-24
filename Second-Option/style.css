@@ -112,7 +112,7 @@ html{
 .inner-back-btn a{
     margin-right: 1rem;
 }
-.first-btn, .second-btn{
+.second-btn{
     padding: 1.5rem 4rem;
     background: var(--mainclr);
     border-radius: 15px;
@@ -125,7 +125,7 @@ html{
     letter-spacing: 3px;
 }
 .welcome{
-    padding: 3rem 7%;
+    padding: 3rem 10%;
 }
 .main-welcome{
     display: flex;

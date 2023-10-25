@@ -169,7 +169,7 @@ width: 80%;
     padding: 2rem 1rem;
 }
 .chose-us h1 span{
-    color: #3ba1c0;
+    color: #222533;;
 }
 .chose-text{
     color: var(--headerclr);
@@ -247,13 +247,13 @@ transform: translateY(-25px);
     padding: 5rem 7%;
 }
 .our-services h1{
-    color: var(--headerclr);
+    color: #222533;
     font-size: 40px;
     text-align: center;
     padding: 1rem 0;
 }
 .our-services h1 span{
-    color: var(--mainclr);
+    color: #a24e34;
 }
 .main-service{
     margin-top: 15px;
@@ -299,16 +299,17 @@ transform: translateY(-25px);
     color: white;
 }
 .our-gallery{
+    background-color: #8d796c;
     padding: 4rem 7%;
 }
 .our-gallery h1{
-    color: var(--headerclr);
+    color: #222533;
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
 .our-gallery h1 span{
-    color: var(--mainclr);
+    color: #bc693e;
 }
 .main-gallery{
     display: flex;
@@ -329,16 +330,17 @@ transform: translateY(-25px);
     transform: translateY(-25px);
 }
 .customer-review{
+    background-color: #545f71;
     padding: 4rem 7%;
 }
 .customer-review h1{
-    color: var(--headerclr);
+    color: #222533;
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
 .customer-review h1 span{
-    color: var(--mainclr);
+    color: #bc693e;
 }
 .main-review{
     display: flex;
@@ -355,10 +357,10 @@ transform: translateY(-25px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .inner-review:hover{
-    background: var(--mainclr);
+    background: #bc693e;
 }
 .inner-review:hover i{
-    color: white;
+    color: #8d96a1;
 }
 .inner-review p{
     font-size: 1.5rem;
@@ -372,7 +374,7 @@ transform: translateY(-25px);
     font-size: 3rem;
     left: 1rem;
     top: 1rem;
-    color: var(--mainclr);
+    color: #bc693e;
 }
 
 

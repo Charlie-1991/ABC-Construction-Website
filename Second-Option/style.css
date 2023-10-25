@@ -29,7 +29,7 @@ html{
     z-index: 10000;
 }
 #logo{
-    color: var(--mainclr);
+    color: #8d96a1;
     font-size: 30px;
 }
 .nav a{
@@ -47,7 +47,7 @@ html{
     cursor: pointer;
 }
 .icon-header div:hover{
-    color: var(--mainclr);
+    color: #8d96a1;
 }
 #menu-bar{
     display: none;
@@ -90,13 +90,13 @@ html{
 }
 .inner-back-text h1{
     font-size: 50px;
-    color: white;
+    color: #545f71;
     text-align: center;
     line-height: 5rem;
     text-transform: uppercase;
 }
 .inner-back-text h1 span{
-    color: var(--mainclr);
+    color: #dc8f50;
     text-transform: uppercase;
 }
 .inner-back-text p{
@@ -114,17 +114,14 @@ html{
 }
 .second-btn{
     padding: 1.5rem 4rem;
-    background: var(--mainclr);
+    background: #8d96a1;
     border-radius: 15px;
     color: var(--headerclr);
     font-size: 1.5rem;
 }
-.first-btn:hover, .second-btn:hover{
-    background: var(--headerclr);
-    color: white;
-    letter-spacing: 3px;
-}
+
 .welcome{
+    background-color: #bc693e;
     padding: 3rem 10%;
 }
 .main-welcome{
@@ -139,7 +136,7 @@ html{
 }
 .welcome-text h1{
     font-size: 40px;
-    color: var(--mainclr);
+    color: #8d96a1;
 
 }
 .welcome-text p{
@@ -163,16 +160,16 @@ width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
-    background-color: turquoise;
+    background-color: #545f71;
 }
 .chose-us h1{
-    color: var(--headerclr);
+    color: #a24e34;
     font-size: 40px;
     text-align: center;
     padding: 2rem 1rem;
 }
 .chose-us h1 span{
-    color: var(--mainclr);
+    color: #3ba1c0;
 }
 .chose-text{
     color: var(--headerclr);
@@ -246,6 +243,7 @@ transform: translateY(-25px);
     padding: 0 1rem;
 }
 .our-services{
+    background-color: #8d96a1;
     padding: 5rem 7%;
 }
 .our-services h1{
@@ -291,7 +289,7 @@ transform: translateY(-25px);
 }
 .inner-service a{
     padding: 1.5rem 3rem;
-    background: var(--mainclr);
+    background-color: #bc693e;
     color: var(--headerclr);
     border-radius: 15px;
 

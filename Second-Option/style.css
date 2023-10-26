@@ -38,7 +38,7 @@ html{
     margin-left: 1rem;
 }
 .nav a:hover{
-    color: var(--mainclr);
+    color: #8d96a1;
 }
 .icon-header div{
     color: white;
@@ -137,7 +137,6 @@ html{
 .welcome-text h1{
     font-size: 40px;
     color: #8d96a1;
-
 }
 .welcome-text p{
     font-size: 1.5rem;
@@ -391,9 +390,6 @@ transform: translateY(-25px);
     html{
         font-size: 55%;
     }
-    #menu-bar{
-        display: initial;
-    }
     .header{
         padding: 2rem;
     }
@@ -425,6 +421,5 @@ transform: translateY(-25px);
         }
         .chose-text{
             padding: 1rem 2rem;
-         
         }
 }
